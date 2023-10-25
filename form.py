@@ -120,11 +120,11 @@ def buttonw_click():
                 label['text'] = wrapped_text
             label4_=''.join((connections[index]))
             label_10 = tk.Label(root, text="У тебя хорошая совместимость с этими людьми:",font="Courier 13",bg="#b2cde8")
-            label_10.place(x=10, y=375)
+            label_10.place(x=10, y=310)
                 
             text=label4_
             label = Label(root, text=text,font="Courier 12",bg="white",cursor="gumby")
-            label.place(x=10,y=400)       
+            label.place(x=10,y=335)       
             root.update()  
 
             width = label.winfo_width()
@@ -224,11 +224,11 @@ def buttonm_click():
                 label['text'] = wrapped_text
             label4_=''.join((connections[index]))
             label_10 = tk.Label(root, text="У тебя хорошая совместимость с этими людьми:",font="Courier 13",bg="#b2cde8")
-            label_10.place(x=10, y=375)
+            label_10.place(x=10, y=300)
                 
             text=label4_
             label = Label(root, text=text,font="Courier 12",bg="white",cursor="gumby")
-            label.place(x=10,y=400)       
+            label.place(x=10,y=335)       
             root.update()  
 
             width = label.winfo_width()
