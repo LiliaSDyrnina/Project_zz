@@ -7,8 +7,7 @@ root.title("Добро пожаловать в КНТ-6")
 
 screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
-sex='9'
-date='qawsedrftgyhujikolp'
+
 
 window_width = 500
 window_height = 500
@@ -20,7 +19,7 @@ label1 = tk.Label(root, text="Привет!",font="Courier 20",bg="pink")
 label1.place(x=100, y=100)
 label2 = tk.Label(root, text="Введи дату своего рождения",font="Courier 15",bg="pink")
 label2.place(x=150, y=150)
-entry=tk.Entry(root,font=" 10")
+entry=tk.Entry(root,font="Courier 13")
 entry.place(x=150,y=180)
 
 def button1_click():
