@@ -27,10 +27,7 @@ def button1_click():
     date=entry.get()
     label3 = tk.Label(root, text="Вы",font="Courier 15",bg="pink")
     label3.place(x=150, y=220)
-    buttonw = tk.Button(root, text="женщина",font="Courier 10",bg="pink")
-    buttonw.place(x=210, y=220)
-    buttonm = tk.Button(root, text="мужчина",font="Courier 10",bg="blue")
-    buttonm.place(x=290, y=220)
+    
     
 button1 = tk.Button(root, text="ok",font="Courier 10",command=button1_click)
 button1.place(x=355, y=180)
