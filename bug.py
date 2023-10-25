@@ -4,13 +4,13 @@ import tkinter as tk
 
 root = tk.Tk()
 root.title("Ошибка")
-
+root.config(cursor="pirate")
 screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
-
+root.configure(bg='#292929')
 
 window_width = 500
-window_height = 500
+window_height = 300
 x = (screen_width // 2) - (window_width // 2)
 y = (screen_height // 2) - (window_height // 2)
 root.geometry(f"{window_width}x{window_height}+{x}+{y}")
@@ -24,9 +24,8 @@ def buttonback_click():
     root.destroy()
     import form
 
-buttonback = tk.Button(root, text="На главную",font="Courier 10",command=buttonback_click)
+buttonback = tk.Button(root, text="На главную",font="Courier 13",command=buttonback_click)
 buttonback.place(x=355, y=180)
 
 
-root.mainloop()    
-
+root.mainloop()
